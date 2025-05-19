@@ -31,7 +31,7 @@ Enable the GNSSs of your choise. Here, for Europe, I'm using `GPS`, `GALILEO` (n
 Or:
 > ubxtool -e GALILEO --device /dev/ttyAMA0
 >
-> ubxtool -d GLONASS --device /dev/ttyAMA0
+> ubxtool -e GLONASS --device /dev/ttyAMA0
 >
 > ubxtool -d SBAS --device /dev/ttyAMA0
 >
