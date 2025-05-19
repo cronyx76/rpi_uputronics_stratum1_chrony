@@ -55,7 +55,7 @@ This is my recipe for Raspberry Pi OS `lite` version `Bookworm`, freshly install
   - Disabled SWAP partition usage for lower file system and memory latency, over the SD Card.
 - Ublox M8 chip fine tuning:
   - Enabled support for GALILEO GNSS for better UTC time reference;
-  - Disabled support for SBAS (reducing PPS jitter) and GLONASS GNSS (#slavaukraini);
+  - Disabled support for SBAS (reducing PPS jitter);
   - Enabled jamming/interferance monitoring for superior GNSS continuity;
   - Enabled stationary dynamic model aiming reduced NMEA and PPS latency and jitter;
   - Set the power management to full power, reducing latency and jitter;
